@@ -2,23 +2,58 @@
 <html lang="en">
 
 <head>
-  <%- include('../partials/head') %>
-    <!-- Include any custom css classes that you want available on this page here -->
-    <style>
-
-    </style>
+	<%- include('../partials/head') %>
+		<!-- Include any custom css classes that you want available on this page here -->
 </head>
 
 <body>
-  <header>
-    <%- include('../partials/nav') %>
-  </header>
+	<header>
+		<%- include('../partials/nav') %>
+	</header>
 
-  Fill me in!
-  <!-- CS5356 TODO #1 Add your landing page here -->
+	<!-- CS5356 TODO-DONE #1 Add your landing page here - DONE -->
+	<!DOCTYPE html>
+	<html>
 
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bulma Version 0.9.0-->
+		<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/landing.css">
+	</head>
 
-<%- include('../partials/footer') %>
+	<body>
+		<section class="hero is-info is-fullheight" style="background-image: url('https://wallpaperaccess.com/full/390954.jpg'); 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 1.00;">
+			<div class="hero-body">
+				<div class="container has-text-centered">
+					<div class="column is-6 is-offset-3">
+						<h1 class="title">
+							Ruffhouse
+						</h1>
+						<h2 class="subtitle">
+							Welcome to Ruffhouse, a place where you can stream the cutest dog pictures 24/7.
+						</h2>
+						<div>
+							<a href="/sign-up" class="button is-primary">Sign Up
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</body>
+
+	</html>
+
+	<!-- CS5356 END OF Add your landing page here -->
+	<!-- cedit of base template to Bulma -->
+	<%- include('../partials/footer') %>
 
 </html>
